@@ -1,6 +1,8 @@
 import './App.css'
 import Button from "./components/Button/Button.jsx";
 import BagsCollection from "./components/Bags/Bags.jsx";
+import FooterInformation from "./components/FooterInformation/FooterInformation.jsx";
+import FooterImage from "./components/FooterImage/FooterImage.jsx";
 
 function App() {
 
@@ -49,7 +51,22 @@ function App() {
                price = "€150"
            />
        </main>
-
+        <footer>
+            <FooterInformation
+            title="The brand"
+            sectionText= "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea esse mollitia nostrum similique. Corporis, facilis hic itaque iusto magnam mollitia quibusdam reiciendis sed voluptatem! Amet, architecto commodi culpa deserunt distinctio dolore dolorum eos fugiat fugit id in iste labore minima molestiae nesciunt nisi officia, perferendis provident quos, repudiandae rerum veniam."
+            />
+            <FooterImage
+            img = "brand"
+            />
+            <FooterImage
+            img = "our story"
+            />
+            <FooterInformation
+            title = "Our story"
+            sectionText= "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad autem corporis cupiditate debitis dolore, dolores esse et eveniet, exercitationem illum ipsam iste laboriosam maiores minima modi rem repellat sunt suscipit. Maxime officia, voluptatem. A aperiam, cum ea enim facilis molestiae officia officiis perspiciatis quidem quis quod quos reiciendis, rem, totam!"
+            />
+        </footer>
       </>
   )
 }
